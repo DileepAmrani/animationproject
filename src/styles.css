@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Roboto&family=Ubuntu:wght@300&display=swap");
+
+.section-heading {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Codystar", cursive;
+  font-size: 45px;
+  font-weight: 600;
+  text-shadow: -4px -4px #7361bf;
+  line-height:3.8rem;
+}
+
+.description {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5% 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .section-two .hero_players_cards .player_card_one {
+    position: absolute;
+    right: 75px;
+    z-index: 1;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 16px;
+    
+  }
+}
+
+

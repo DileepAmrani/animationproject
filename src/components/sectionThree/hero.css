@@ -1,0 +1,31 @@
+.section-three {
+  background-color: #cbbeff;
+  padding-top: 8%;
+  /* position: relative; */
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-three .player-box {
+  display: flex;
+}
+
+.section-three .section-three-title {
+  line-height: 55px;
+  text-align: center;
+  z-index: 1;
+}
+
+.circle_3 {
+  width: 30px;
+  background-color: rgb(255, 158, 192, 0.4);
+  border-radius: 600px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  right: 50%;
+  margin-top: 10%;
+  margin: auto;
+}

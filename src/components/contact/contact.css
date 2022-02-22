@@ -1,0 +1,34 @@
+.contact {
+  background-color: #cbbeff;
+  padding: 8% 0;
+}
+.contact .contact-coin-box {
+  display: flex;
+  justify-content: center;
+}
+.contact label {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 2px 0;
+}
+.contact .text-input {
+  border: none;
+  outline: none;
+  padding: 15px 0px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.contact button {
+  background-color: #9e8aff;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 20px;
+}

@@ -1,0 +1,72 @@
+.hero {
+  background-color: #cbbeff;
+  padding: 150px 0;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.hero .hero_players_cards {
+  position: relative;
+  padding: 7% 0;
+}
+
+.hero .hero_players_cards .player_card_one {
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+  max-width: 250px;
+}
+
+.hero .hero_players_cards .player_card_two {
+  position: absolute;
+  left: 150px;
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 760px) {
+  .hero {
+    padding: 100px 0;
+  }
+  .hero .hero_players_cards {
+    height: 100px;
+  }
+  .hero .hero_players_cards .player_card_one {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    max-width: 150px;
+  }
+
+  .hero .hero_players_cards .player_card_two {
+    position: absolute;
+    left: 100px;
+    max-width: 150px;
+  }
+}
+
+.circle_1 {
+  width: 30px;
+  background-color: rgb(158, 138, 255, 0.4);
+  border-radius: 600px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  right: 26%;
+  margin-top: 10%;
+  margin: auto;
+}
+
+
+.circle_1 {
+  width: 30px;
+  background-color: rgb(158, 138, 255, 0.4);
+  border-radius: 600px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  right: 26%;
+  margin-top: 10%;
+  margin: auto;
+}

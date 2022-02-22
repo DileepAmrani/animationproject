@@ -1,0 +1,37 @@
+.section-two {
+  background-color: #cbbeff;
+  padding: 8% 0;
+  /* position: relative; */
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-two .hero_players_cards {
+  position: relative;
+  /* padding: 2%; */
+}
+
+.section-two .hero_players_cards .player_card_one {
+  position: absolute;
+  right: 100px;
+  z-index: 1;
+}
+
+.section-two .hero_players_cards .player_card_two {
+  position: absolute;
+  right: 0px;
+}
+
+.circle_2 {
+  width: 30px;
+  background-color: rgb(1208, 138, 255, 0.4);
+  border-radius: 600px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  right: 50%;
+  margin-top: 10%;
+  margin: auto;
+}
